@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
-
-<body>
-    <form action='/' method='post'>
-        <input placeholder="Name" name='name'> input
-        <input placeholder="Post content" name='post'>
-        <input type='submit' value='Submit'>
-    </form>
-    {% for post in posts %}
-    <div>{{post[1] + ': ' + post[2]}}</div>
-    {% endfor %}
-</body>
-
-</html>
+{% extends "layout.html" %} {% block body %}
+<form action='/' method='post'>
+    <input placeholder="Name" name='name'> input
+    <input placeholder="Post content" name='post'>
+    <input type='submit' value='Submit'>
+</form>
+{% for post in posts %}
+<div>{{post[1] + ': ' + post[2]}}</div>
+{% endfor %} {% endblock %}
