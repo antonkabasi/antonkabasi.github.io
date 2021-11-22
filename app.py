@@ -5,6 +5,7 @@ from models import create_post, get_posts
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
+@app.route('/index', methods=['GET', 'POST'])
 
 def index():
     if request.method == 'GET':
@@ -30,5 +31,6 @@ def addNew():
         create_post(name, post)
 
     posts = get_posts()
+
 
     return render_template('add-new.html', posts=posts)

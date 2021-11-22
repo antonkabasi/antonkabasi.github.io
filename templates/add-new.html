@@ -1,13 +1,8 @@
 {% extends "layout.html" %} {% block body %}
-<a href="index">index</a>
-<a href="add-new">add new exercise</a>
-<form action='/' method='post'>
-    <input placeholder="Name" name='name'> input
-    <input placeholder="Post content" name='post'>
-    <input type='submit' value='Submit'>
+<form class="form-inline" action='/add-new' method='post'>
+    <label class="sr-only" for="inlineFormInputName2">Name</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Bench press">
+    <button type="submit" class="btn btn-primary mb-2">Submit</button>
 </form>
-{% for post in posts %}
-<div>{{post[1] + ': ' + post[2]}}</div>
-{% endfor %} {% endblock %}
-<a href="index.html">index</a>
-<a href="add-new.html">add new exercise</a>
+<a href="index">index</a>
+<a href="add-new">add new exercise</a> {% endblock %}

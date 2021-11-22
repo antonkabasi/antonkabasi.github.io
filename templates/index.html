@@ -1,6 +1,4 @@
 {% extends "layout.html" %} {% block body %}
-<a href="index">index</a>
-<a href="add-new">add new exercise</a>
 <form action='/' method='post'>
     <input placeholder="Name" name='name'> input
     <input placeholder="Post content" name='post'>
@@ -8,6 +6,6 @@
 </form>
 {% for post in posts %}
 <div>{{post[1] + ': ' + post[2]}}</div>
-{% endfor %} {% endblock %}
-<a href="index.html">index</a>
-<a href="add-new.html">add new exercise</a>
+{% endfor %}
+<a href="index">index</a>
+<a href="add-new">add new exercise</a> {% endblock %}
