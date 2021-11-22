@@ -19,6 +19,7 @@ def index():
 
     return render_template('index.html', posts=posts)
 
+@app.route('/add-new', methods=['GET', 'POST'])
 def addNew():
     if request.method == 'GET':
         pass
