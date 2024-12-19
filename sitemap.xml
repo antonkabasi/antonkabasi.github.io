@@ -7,22 +7,30 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://www.antonkabasi.com/</loc>
-  <lastmod>2024-12-19T22:21:00Z</lastmod>
+  <lastmod>2024-12-19T22:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.antonkabasi.com/2024/</loc>
+  <lastmod>2024-12-19T22:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.antonkabasi.com/archive.html</loc>
-  <lastmod>2024-12-19T22:21:00Z</lastmod>
+  <lastmod>2024-12-19T22:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.antonkabasi.com/categories/</loc>
-  <lastmod>2024-12-19T22:21:00Z</lastmod>
+  <lastmod>2024-12-19T22:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.antonkabasi.com/galleries/</loc>
-  <lastmod>2024-12-19T22:21:00Z</lastmod>
+  <lastmod>2024-12-19T22:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.antonkabasi.com/listings/</loc>
-  <lastmod>2024-12-19T22:21:00Z</lastmod>
+  <lastmod>2024-12-19T22:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.antonkabasi.com/posts/under-construction.html</loc>
+  <lastmod>2024-12-19T22:24:00Z</lastmod>
  </url>
 </urlset>
