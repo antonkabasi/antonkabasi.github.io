@@ -1,0 +1,4 @@
+Sitemap: https://www.antonkabasi.com/sitemapindex.xml
+
+User-Agent: *
+Host: www.antonkabasi.com
